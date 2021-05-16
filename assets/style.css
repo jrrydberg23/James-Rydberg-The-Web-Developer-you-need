@@ -38,6 +38,22 @@ body {
     border: solid 2px;
     border-radius: 1%;
 }
+
+.img2 {
+    position:relative;
+    height: 375px;
+    border: solid 2px;
+    border-radius: 1%;
+}
+
+.img3 {
+    position:relative;
+    height: 375px;
+    border: solid 2px;
+    border-radius: 1%;
+}
+
+
 /* nav begins */
 .nav__link {
     list-style: none;
@@ -52,12 +68,17 @@ body {
     padding: 0px 20px;
 }
 
-nav__links li a {
+.nav__links li a {
     transition: all 0.3s ease 0s;
 }
 
-nav__links li a:hover {
-    color: blueviolet;
+.nav__links li a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+.nav__links li a:active {
+    color: blue;
 }
 
 /* this is me begins */
@@ -65,12 +86,13 @@ nav__links li a:hover {
 .this-is-me {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
-    background-color: lightsteelblue;
+    background-color: lightseagreen;
 }
 
 .this-is-me__body {
-
+    width: 75%;
+    display: inline-block;
+    background-color: lightseagreen;
 }
 
 /* this is me ends */
@@ -81,26 +103,46 @@ nav__links li a:hover {
 }
 
 .card1 { 
-    background-color: lightskyblue;
+    background-color: lightseagreen;
     height: 200px;
     flex-wrap: wrap;
     background-size: cover;
 }
  
 .card2 {
-    background-color: lightskyblue;
+    background-color: lightseagreen;
     height: 200px;
     flex-wrap: wrap;
     background-size: cover;
 }
 
+/* contact info starts */
 
+.contact-info li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.conact-info li a {
+    transition: all 0.3s ease 0s;
+}
+
+.conact-info li a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+.conact-info li a:active {
+    color: blue;
+}
+
+/*contact info ends */
 /* footer section begins */
 
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
